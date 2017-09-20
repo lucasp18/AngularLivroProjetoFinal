@@ -1,0 +1,14 @@
+<h1>
+  {{title}}
+</h1>
+<br>
+<br>
+
+<app-dados-usuario></app-dados-usuario>
+
+<br>
+<br>
+
+<app-lista-usuario (idClicado)="valorPassado($event)"></app-lista-usuario>
+
+<app-detalhe-usuario [contato]="contatoClicado2"> </app-detalhe-usuario>
